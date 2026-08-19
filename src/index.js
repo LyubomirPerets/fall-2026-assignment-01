@@ -4,7 +4,7 @@
  * You can run this file using:
  * npm run dev
  */
-
+export {};
 // Example:
-import { formatName } from './exercise01.js';
-console.log(formatName('John', 'Doe', 'Quincy'));
+//import { formatName } from './exercise01.js';
+//console.log(formatName('John', 'Doe', 'Quincy'));
