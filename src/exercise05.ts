@@ -9,5 +9,6 @@ export function initializeConfig(userOverrides: Partial<AppConfig>): AppConfig {
     if (userOverrides.hasOwnProperty(key)) {
       throw new Error(`Invalid configuration key: ${key}`);
     }
+  }
   return {} as AppConfig;
-}
+  }
