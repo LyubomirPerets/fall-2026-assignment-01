@@ -5,7 +5,7 @@ export function formatName(
 ): string {
   let output = lastName + ', ' + firstName;
   if (middleName){
-    output += middleName[0] + '. ';
+    output += ' ' + middleName[0] + '. ';
   }
   return output
 }
