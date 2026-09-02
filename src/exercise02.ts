@@ -25,5 +25,5 @@ export function transcribeDNA(dna: string): string {
           throw new CustomError('No Such Nucleotide');
       }
     }
-  return '';
+  return rna.join('');
 }
